@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>CatPhotoApp</title>
+        </head>
+        <body>
+            <h2>CatPhotoApp</h2>
+                <main>
+                    <h3>Cat photos</h3>
+                    <!--TODO: Add link to cat photos-->
+                    <p>Click here to viwe more cat photos:
+                    <a href="https://Catphotos.com" target="_blank">Cat Photos</a></p>
+                    <a href="#"><img src="https://www.thesprucepets.com/thmb/AyzHgPQM_X8OKhXEd8XTVIa-UT0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-145577979-d97e955b5d8043fd96747447451f78b7.jpg"
+                    alt="A cute cat Loock at the Camera"></a>
+                    <h3>Cat Lists</h3>
+                    <div class="lists">
+                        <p>Things cats <em>love</em>:</p>
+                        <ul>
+                            <li>Cat nip</li>
+                            <li>Laser pointers</li>
+                            <li>Lasagna</li>
+                        </ul>
+                        <img src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe.jpg"
+                        alt="Lasagna">
+                        <p>Things cats <strong>hate</strong>:</p>
+                        <ol>
+                            <li>Flea treatment</li>
+                            <li>Thunder</li>
+                            <li>Other cats</li>
+                        </ol>
+                    </div>
+                    <img src="cats.jpg"
+                    alt="Cats">
+                    <form action="/submit-cat-photo">
+                        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label><br>
+                        <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+                        <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Loving</label><br>
+                        <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Laze</label><br>
+                        <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic</label><br>
+                        <input type="text" placeholder="cat photo URL" required><br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </main>
+                <footer>
+                    <p><small>No Copyright - <a href="https://github.com/AyhamTakem" target="_blank">Ayham Takem Github</a></p>
+                    
+                </footer>
+        </body>
+    </html>
